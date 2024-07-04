@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background: #001F3F;
     margin: 0;
     padding: 0;
 }
@@ -8,13 +9,29 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgb(164, 189, 206);
     color: white;
     padding: 10px 20px;
 }
 
 header img {
-    height: 40px;
+    height: 70px;
+    width: 90px;
+}
+
+.cover-image {
+    height: 400px; /* Approximate height of an iPhone 14 */
+    width: 200px;  /* Approximate width of an iPhone 14 */
+    border-radius: 18px; /* iPhone 14 rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+    object-fit: cover;
+    padding-bottom: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    background-color: #001F3F;
 }
 
 nav ul {
@@ -39,12 +56,12 @@ nav ul li a {
     background-color: #f4f4f4;
 }
 
-.hero .cover-image {
+/* .hero .cover-image {
     width: 100%;
     height: auto;
     max-height: 400px;
     object-fit: cover;
-}
+} */
 
 .hero h1 {
     margin: 20px 0 10px;
@@ -67,6 +84,10 @@ nav ul li a {
 
 section {
     padding: 50px 20px;
+}
+
+#features, #about {
+    color: rgb(164, 189, 206);
 }
 
 #features {
