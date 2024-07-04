@@ -1,150 +1,146 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #001F3F;
-    margin: 0;
-    padding: 0;
-}
+@media screen and (width <= 430px) and (height <= 932px){
+    body {
+        font-family: Arial, sans-serif;
+        background: #001F3F;
+        margin: 0;
+        padding: 0;
+    }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(164, 189, 206);
-    color: white;
-    padding: 10px 20px;
-}
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(164, 189, 206);
+        color: white;
+        padding: 10px 20px;
+    }
 
-header img {
-    height: 70px;
-    width: 90px;
-}
+    header img {
+        height: 70px;
+        width: 80px;
+        margin-left: -10px;
+    }
 
-.cover-image {
-    height: 400px; /* Approximate height of an iPhone 14 */
-    width: 200px;  /* Approximate width of an iPhone 14 */
-    border-radius: 18px; /* iPhone 14 rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    margin: 0 auto; /* Center the image horizontally */
-    display: block; /* Ensure the image is treated as a block element */
-    object-fit: cover;
-    padding-bottom: 35px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 12px;
-    background-color: #001F3F;
-}
+    .cover-image {
+        height: 400px; /* Approximate height of an iPhone 14 */
+        width: 200px;  /* Approximate width of an iPhone 14 */
+        border-radius: 18px; /* iPhone 14 rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        margin: 0 auto; /* Center the image horizontally */
+        display: block; /* Ensure the image is treated as a block element */
+        object-fit: cover;
+        padding-bottom: 35px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 12px;
+        background-color: #001F3F;
+    }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
 
-nav ul li {
-    margin: 0 10px;
-}
+    nav ul li {
+        margin: 0 10px;
+    }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f4f4f4;
-}
+    .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #f4f4f4;
+    }
 
-/* .hero .cover-image {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-} */
+    .hero h1 {
+        margin: 20px 0 10px;
+        font-size: 2.5em;
+    }
 
-.hero h1 {
-    margin: 20px 0 10px;
-    font-size: 2.5em;
-}
+    .hero p {
+        font-size: 1.2em;
+        margin: 10px 0 20px;
+    }
 
-.hero p {
-    font-size: 1.2em;
-    margin: 10px 0 20px;
-}
+    .hero .cta {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
 
-.hero .cta {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
+    section {
+        padding: 50px 20px;
+    }
 
-section {
-    padding: 50px 20px;
-}
+    #features, #about {
+        color: rgb(164, 189, 206);
+    }
 
-#features, #about {
-    color: rgb(164, 189, 206);
-}
+    #features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-#features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    .feature {
+        max-width: 300px;
+        text-align: center;
+        margin: 20px;
+    }
 
-.feature {
-    max-width: 300px;
-    text-align: center;
-    margin: 20px;
-}
+    .feature img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 
-.feature img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
+    #about ul {
+        list-style: none;
+        padding: 0;
+    }
 
-#about ul {
-    list-style: none;
-    padding: 0;
-}
+    #about ul li {
+        margin: 10px 0;
+    }
 
-#about ul li {
-    margin: 10px 0;
-}
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
 
-footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
+    footer ul li {
+        margin: 0 10px;
+    }
 
-footer ul li {
-    margin: 0 10px;
-}
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
 
-footer ul li a {
-    color: white;
-    text-decoration: none;
-}
+    .social-media {
+        margin-top: 20px;
+    }
 
-.social-media {
-    margin-top: 20px;
-}
-
-.social-media a {
-    margin: 0 10px;
+    .social-media a {
+        margin: 0 10px;
+    }
 }
