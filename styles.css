@@ -136,7 +136,10 @@
         text-decoration: none;
     }
 
-    .social-media {
+    .social-media  button{
+        color: white;
+        background-color: #333;
+        border: none;
         margin-top: 20px;
     }
 
