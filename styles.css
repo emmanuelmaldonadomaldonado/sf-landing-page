@@ -48,7 +48,7 @@
     }
 
     nav ul li a {
-        color: white;
+        color: #001F3F;
         text-decoration: none;
     }
 
@@ -98,9 +98,13 @@
     }
 
     .feature img {
-        width: 100%;
+        width: 200px;
         height: auto;
         border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 35px;
     }
 
     #about ul {
@@ -110,40 +114,5 @@
 
     #about ul li {
         margin: 10px 0;
-    }
-
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-
-    footer ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    footer ul li {
-        margin: 0 10px;
-    }
-
-    footer ul li a {
-        color: white;
-        text-decoration: none;
-    }
-
-    .social-media  button{
-        color: white;
-        background-color: #333;
-        border: none;
-        margin-top: 20px;
-    }
-
-    .social-media a {
-        margin: 0 10px;
     }
 }
